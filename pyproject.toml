@@ -1,0 +1,31 @@
+[project]
+name = "PRODUCT-RECOMMENDER"
+version = "0.1"
+description = "Amzon Product recommendation system"
+authors = [
+  { name="Sachin Hatikankan" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+"langchain",
+"langchain-astradb",
+"langchain-huggingface",
+"langchain_google_genai",
+"langchain-community",
+"datasets",
+"pypdf",
+"python-dotenv",
+"pandas",
+"flask",
+"prometheus_client",
+"sentence-transformers",
+"streamlit"
+] 
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["amazon"]

@@ -1,0 +1,14 @@
+langchain
+langchain_astradb
+langchain-huggingface
+langchain_google_genai
+langchain-community
+datasets
+pypdf
+python-dotenv
+pandas
+flask
+prometheus_client
+sentence-transformers
+streamlit
+
