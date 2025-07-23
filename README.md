@@ -1,5 +1,6 @@
 🚀 Built an AI-Powered Amazon Product Recommender using RAG (Retrieval-Augmented Generation)
-Just completed a full-stack AI project that helps users find products through intelligent conversations!
+Completed a full-stack AI project that helps users find products through intelligent conversations!
+
 🔧 Tech Stack:
 
 Frontend: Streamlit (Interactive chat interface)
