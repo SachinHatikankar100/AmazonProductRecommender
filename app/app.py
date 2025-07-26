@@ -3,7 +3,7 @@ from amazon.rag_chain import RAGBuilder
 from dotenv import load_dotenv
 from amazon.data_ingestion import DataIngestion
 
-st.set_page_config(page_title="Amzon Product Recommender", layout="wide")
+st.set_page_config(page_title="Amazon Review Based Product Recommender", layout="wide")
 load_dotenv()
 
 
@@ -14,7 +14,7 @@ def init_pipeline():
 pipeline = init_pipeline()
 
 
-st.title("Amazon Product Recommender")
+st.title("Amazon Review Based Product Recommender")
 
 # Initialize chat history
 if "messages" not in st.session_state:

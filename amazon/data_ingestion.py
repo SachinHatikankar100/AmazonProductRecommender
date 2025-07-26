@@ -17,7 +17,7 @@ class DataIngestion:
         )
 
 
-    def ingestion(self,load_existing=True):
+    def ingestion(self,load_existing=False):
         if load_existing==True:
             return self.vector_store
         
